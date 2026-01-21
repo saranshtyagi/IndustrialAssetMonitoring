@@ -36,37 +36,39 @@ This system aims to:
 
 ## 🗂️ Project Structure
 
+## 📁 Project Structure
+
+```text
 IndustrialAssetMonitoring/
-│
 ├── src/
-│ ├── db/
-│ │ ├── Database.h
-│ │ └── Database.cpp
-│ │
-│ ├── models/
-│ │ ├── Asset.h
-│ │ ├── Sensor.h
-│ │ └── Fault.h
-│ │
-│ ├── services/
-│ │ ├── AssetService.cpp
-│ │ ├── MaintenanceService.cpp
-│ │ └── ReportService.cpp
-│ │
-│ └── main.cpp
+│   ├── db/
+│   │   ├── Database.h
+│   │   └── Database.cpp
+│   │
+│   ├── models/
+│   │   ├── Asset.h
+│   │   ├── Sensor.h
+│   │   └── Fault.h
+│   │
+│   ├── services/
+│   │   ├── AssetService.cpp
+│   │   ├── MaintenanceService.cpp
+│   │   └── ReportService.cpp
+│   │
+│   └── main.cpp
 │
 ├── sql/
-│ ├── schema.sql
-│ ├── indexes.sql
-│ ├── procedures.sql
-│ └── sample_data.sql
+│   ├── schema.sql
+│   ├── indexes.sql
+│   ├── procedures.sql
+│   └── sample_data.sql
 │
 ├── config/
-│ └── db_config.txt
+│   └── db_config.example.txt
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
