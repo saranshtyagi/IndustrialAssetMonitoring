@@ -34,8 +34,6 @@ This system aims to:
 
 ---
 
-## 🗂️ Project Structure
-
 ## 📁 Project Structure
 
 ```text
